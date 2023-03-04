@@ -1,14 +1,16 @@
 import React from "react";
 
-function Project() {
+const Project = ({name, description, github, deployedUrl}) =>{
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
     <div className="col">
       <div className="card h-100">
-        <image src="..." className="card-img-top" alt="..."></image>
+        <image src="..." className="card-img-top" alt="ScreenShot of the Project"></image>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">{description}</p>
+          <a href= {github} class="card-link">GitHub link</a>
+          <a href= {deployedUrl} class="card-link">Deployed link</a>>
         </div>
       </div>
     </div>
