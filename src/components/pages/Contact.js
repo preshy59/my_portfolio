@@ -24,7 +24,7 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="mailto:okemba50@gmail.com" className="send"><image src="images/email.png" className="img-fluid"
+                        <a href="mailto:okemba50@gmail.com" className="send"><image src="../images/email.png" className="img-fluid"
                             alt="email"></image></a>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://github.com/preshy59" className="send"><image src="images/github.png" className="img-fluid"
+                        <a href="https://github.com/preshy59" className="send"><image src="../images/github.png" className="img-fluid"
                             alt="GitHub"></image></a>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><image src="images/linkedln.png" className="img-fluid"
+                        <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><image src="../images/linkdeln.png" className="img-fluid"
                             alt="linkedln"></image></a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><image src="images/twitter.png" className="img-fluid"
+                        <a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><image src="../images/twitter.png" className="img-fluid"
                             alt="twitter"></image></a>
                     </div>
                 </div>
