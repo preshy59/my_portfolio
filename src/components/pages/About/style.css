@@ -1,0 +1,58 @@
+body{
+    background-color: #011C2C!important;
+  }
+  
+  
+  #body{
+    background-color: inherit!important;
+    /* margin:   auto; */
+    padding-top: 60px;
+    justify-content: center;
+    border: none
+    ;
+  }
+  
+  #message{
+    color: #16D2A7;
+    border: none;
+    margin-left: 20px;
+   
+  }
+  
+  #message p{
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  #message h5{
+      text-align: justify;
+      font-size: 2.5rem;
+  }
+  #profile{
+      border-radius: 100px !important;
+          
+  }
+   #sections{
+    margin: 100px 20px 0 20px;
+   }
+
+   .skill{
+    display: flex;
+    flex-direction: row;
+    padding:0  20px;
+    flex-wrap: wrap;
+    margin: 0;
+   }
+
+   .skill  .skill-item{
+    padding:0 20px;
+    margin: 5px;
+   }
+  
+ 
+  
+  
+   
+  
+  
+   
