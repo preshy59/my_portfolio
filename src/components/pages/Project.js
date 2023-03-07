@@ -1,16 +1,16 @@
 import React from "react";
 
-const Project = ({ name, description, github, deployedUrl, screenshot }) => {
+const Project = (props) => {
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
       <div className="col">
         <div className="card h-100">
-          <image src={screenshot} className="card-img-top" alt="ScreenShot of the Project"></image>
+          <image src={props.image} className="card-img-top" alt={props.name}></image>
           <div className="card-body">
-            <h5 className="card-title">{name}</h5>
-            <p className="card-text">{description}</p>
-            <a href={github} class="card-link">GitHub link</a>
-            <a href={deployedUrl} class="card-link">Deployed link</a>
+            <h5 className="card-title">{props.name}</h5>
+            <p className="card-text">{props.description}</p>
+            <a href={props.github} class="card-link">GitHub link</a>
+            <a href={props.deployedUrl} class="card-link">Deployed link</a>
           </div>
         </div>
       </div>
