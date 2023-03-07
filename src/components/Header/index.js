@@ -38,7 +38,7 @@ function Header(props) {
                                 About
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <NavLink
                                 to="/project"
                                 className={({ isActive }) =>
@@ -47,7 +47,7 @@ function Header(props) {
                             >
                                 Project
                             </NavLink>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
                             <NavLink
@@ -70,14 +70,10 @@ function Header(props) {
                                 Contact
                             </NavLink>
                         </li>
-
-                        <li className="nav-item">
-                            
-                               <a href="/Resume.pdf" download>Resume</a>
-                                
-                            
-                        </li>
                     </ul>
+                    <div className="resume">
+                    <a href="/Resume.pdf" download>Resume</a>
+                    </div>
                 </div>
             </div>
         </nav>

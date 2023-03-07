@@ -22,8 +22,8 @@ return (
         <Route path="/" element={<Home />} />
         {/* definie a default route that will render the About Component */}
         <Route path="/about" element={<About />} />
-        {/* definie a default route that will render the Project Component */}
-        <Route path="/project" element={<Project />} />
+        {/* definie a default route that will render the Project Component
+        <Route path="/project" element={<Project />} /> */}
         {/* definie a default route that will render the Project Gallery Component */}
         <Route path="/projectgallery" element={<ProjectGallery />} />
         {/* definie a default route that will render the Contact Component */}
