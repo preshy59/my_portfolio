@@ -1,9 +1,6 @@
 import React from "react";
 import "./style.css";
-import Email from "./../../../images/email.png";
-import Git from "./../../../images/github.png";
-import Twitter from "./../../../images/twitter.png"
-import Linkdeln from "./../../../images/linkdeln.png"
+
 
 function Contact() {
     return (
@@ -29,8 +26,8 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="mailto:okemba50@gmail.com" className="send"><image src={Email} className="img-fluid"
-                            alt="email"></image></a>
+                        <a href="mailto:okemba50@gmail.com" className="send"><img src={require('../../../assets/images/email.png')} className="img-fluid"
+                            alt="email"></img></a>
                     </div>
                 </div>
 
@@ -38,8 +35,8 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://github.com/preshy59" className="send"><image src={Git} className="img-fluid"
-                            alt="GitHub"></image></a>
+                        <a href="https://github.com/preshy59" className="send"><img src={require('../../../assets/images/github.png')} className="img-fluid"
+                            alt="GitHub"></img></a>
                     </div>
                 </div>
 
@@ -47,8 +44,8 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><image src={Linkdeln} className="img-fluid"
-                            alt="linkedln"></image></a>
+                        <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><img src={require('../../../assets/images/linkdeln.png')} className="img-fluid"
+                            alt="linkedln"></img></a>
                     </div>
                 </div>
 
@@ -56,8 +53,8 @@ function Contact() {
 
 
                     <div className="view overlay z-depth-1-half">
-                        <a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><image src={Twitter} className="img-fluid"
-                            alt="twitter"></image></a>
+                        <a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><img src={require('../../../assets/images/twitter.png')} className="img-fluid"
+                            alt="twitter"></img></a>
                     </div>
                 </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import HeadShot from "./image/headshot.png";
+
 
 function Home() {
     return (
@@ -19,7 +19,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-md-2">
-                    <img src={HeadShot} className="img-fluid rounded-start" alt="headshot"></img>
+                    <img src= {require('../../../assets/images/headshot.png')} className="img-fluid rounded-start" alt="headshot"></img>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import "./style.css";
-import project from "./c"
+import projects from "./../../../project.json"
 
 
 
