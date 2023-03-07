@@ -1,0 +1,36 @@
+ h5{
+    color: #16D2A7;
+    font-size: 2.5rem;
+    /* padding-top: 60px; */
+}
+p{
+    color: #16D2A7;
+    font-size: 1rem;
+}
+
+.wrapper{
+    
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: calc(100%/4.1); /* .1 for spacing */
+    
+ 
+}
+
+.card-link{
+    text-decoration: none;
+    color: #16D2A7;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.card-link:hover{
+    color: #bdba0a;
+    font-size: 1.2rem;
+}
+
+
+

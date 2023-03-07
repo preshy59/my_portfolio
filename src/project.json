@@ -10,9 +10,9 @@
 
     {
         "id": 2,
-        "name": "5Days Weather Forcast",
+        "name": "5-Days Weather Forcast",
         "images": " https://drive.google.com/file/d/1oj3P_t_uhvb6c6npnzu_YKY79MMy9K5s/view?usp=share_link",
-        "description": "The 5Days Weather Forcast Dashboard is a user friendly single page web application that showcases the 5days- weather forecast of a city which is soley based on the user choice. ",
+        "description": "The 5-Days Weather Forcast Dashboard is a user friendly single page web application that displays the weather forecast of a city. ",
        "github": "https://github.com/preshy59/weather_dashboard",
         "deployedUrl": "https://preshy59.github.io/weather_dashboard/"
     },
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Team Profile",
        "images": " https://drive.google.com/file/d/1FCPDFJJrI9eV_BQ91B3h4OvLhpTiWN_a/view?usp=share_link",
-        "description": "Team Profile is a command-line application that take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person and combine the information to generate the team profiles using node.js ",
+        "description": "Team Profile is a command-line application that generate information about employees on a software engineering team using node.js ",
         "github": "https://github.com/preshy59/team_profile_generator",
         "deployedUrl": "https://github.com/preshy59/team_profile_generator"
     },
@@ -30,7 +30,7 @@
         "id": 4,
        "name": "Prebel Collection",
         "images": "https://drive.google.com/file/d/1TbGcMhdZoCOr2a-ge24_tFWotpLBjump/view?usp=share_link",
-        "description": "Online fashion store that deals on different apparels",
+        "description": "Prebel collection is a one stop online fashion store that deals on different apparels of any kind.",
         "github": "https://github.com/preshy59/prebel_collection",
         "deployedUrl": "https://preshy59.github.io/prebel_collection/"
     }
