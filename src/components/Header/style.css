@@ -1,0 +1,50 @@
+/* navigation section styling */
+#mainNav {
+    position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    /* height: 15vh; */
+    margin: 0;
+    padding: 0;
+    background-color:  #011C2C !important;
+    box-shadow: 0 10px 30px -10px;
+    z-index: 1;
+
+}
+
+#logo {
+    float: left;
+    width: 43px;
+    height: 43px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+#mainNav a {
+    margin: 0px 5px;
+    font-size: 20px;
+   font-size: var(--fz-xs);
+    color: #16D2A7 !important;
+
+}
+
+#mainNav a:hover,
+#mainNava:focus {
+    color: rgb(218, 205, 33) !important;
+    font-weight: bold;
+
+}
+

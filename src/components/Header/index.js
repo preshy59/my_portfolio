@@ -1,21 +1,18 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 import "./style.css";
-import logo from "./image/logo.png";
 
 function Header(props) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-            <div className="container-fluid">
-                
-                <a className="navbar-brand" href="#home" onClick={() => props.handlePageChange("Home")}>
-                    <image src={logo} alt="logo using initial" id="logo"></image>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+            <a className="navbar-brand images navHead" href="#home" onClick={() => props.handlePageChange("Home")}>
+                    <img src={require('../../assets/images/logo.png')} alt="logo using initial" id="logo"></img>
                 </a>
                  
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <NavLink
@@ -82,8 +79,7 @@ function Header(props) {
                     <a href="/Resume.pdf" download>Resume</a>
                     </div>
                 </div>
-            </div>
-        </nav>
+               </nav>
     );
 }
 
