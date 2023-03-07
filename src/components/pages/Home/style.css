@@ -20,17 +20,17 @@ body{
 
 #section p{
   text-align: justify;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 #section h1{
     text-align: justify;
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 
 #section h2{
     text-align: justify;
-    font-size: 40px;
+    font-size: 1.5rem;
     color: #645b5b;
     font-weight: bold;
 }
