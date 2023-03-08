@@ -5,7 +5,7 @@ import "./style.css";
 function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
-            <a className="navbar-brand images navHead" href="/my_portfolio" onClick={() => props.handlePageChange("Home")}>
+            <a className="navbar-brand images navHead" href="/my_portfolio">
                 <img src={require('../../assets/images/logo.png')} alt="logo using initial" id="logo"></img>
             </a>
 

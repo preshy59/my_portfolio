@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "5-Days Weather Forcast",
-        "images": " https://drive.google.com/file/d/1oj3P_t_uhvb6c6npnzu_YKY79MMy9K5s/view?usp=share_link",
+        "images": "(./assets/images/weather_forcast.png)",
         "description": "The 5-Days Weather Forcast Dashboard is a user friendly single page web application that displays the weather forecast of a city. ",
        "github": "https://github.com/preshy59/weather_dashboard",
         "deployedUrl": "https://preshy59.github.io/weather_dashboard/"

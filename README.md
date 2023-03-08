@@ -1,126 +1,113 @@
-cd# Challenge 13: React Portfolio
 
-For this challenge, you will utilize what you have learned in `Module 13: React` to develop the initial scaffolding of your portfolio sites.
 
-Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site as well as create and/or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+<a name="readme-top"></a>
 
-## Instructions
+<!-- PROJECT TITLE -->
 
-* Students must fullfil the requirements listed in the following sections:
+<h3 align="center">MY PORTFOLIO</h3>
 
-### Design
+ 
 
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-description"> Project Description</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+         <li><a href="#installation">Installation / Run Locally<</a></li>
+        </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#question">Questions</a></li>
+    </ol>
+</details>
 
-* Mobile-first design
 
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
 
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
+<!-- DESCRIPTION OF THE PROJECT -->
+## Project Description
 
-### Base Requirements
+This project is basically design to to describe me as a brand while showcasing series of work that i had done. it also listed the technologies that i had worked with and a form & Social handles to contact me for work or refernce. 
 
-* Technologies that must be used:
-  * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
-* Your portfolio **must contain** the following information:
-  * [ ] Your name
-  * [ ] Links to your:
-    * [ ] GitHub Profile
-    * [ ] LinkedIn Page
-    * [ ] Email Address
-    * [ ] Phone Number - (optional)
-    * [ ] PDF version of your resume
-      * Your resume **must** contain up-to-date projects and professional experience
-    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
-      * [ ] Project title
-      * [ ] Link to the deployed version
-      * [ ] Link to the GitHub repository
-      * [ ] GIF or screenshot of the deployed application
+### Built With
 
-### Required Components
+ * HTML
+ * CSS
+ * JAVASCRIPT
+ * NODE.JS
+ * ES6
+ * React.js
 
-* At a minium, your portfolio must render these 6 components:
-  1. [ ] App
-  2. [ ] Header
-  4. [ ] Home
-  5. [ ] Project Gallery
-  6. [ ] Project
-  7. [ ] Contact
 
-### Required Component Content
-* [ ] App:
-  * [ ] Must be your top level component and render all necessary children components
-* [ ] Header:
-   * [ ] Must be rendered across the entire site
-   * [ ] Must Contain a Navbar
-* [ ] Project Gallery:
-  * [ ] Must render dynamically 6 instances of the Project component
-    * [ ] Be sure to store your project data in a JSON file and import it into your project
-* [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [ ] Must utilize router props to properly render the right project based on user selection
-   * [ ] Must render the following info:
-     * [ ] Project title
-     * [ ] Link to the deployed version
-     * [ ] Link to the GitHub repository
-     * [ ] GIF or screenshot of the deployed application
-* [ ] Contact:
-  * [ ] Must have contact information
-  * [ ] Have a contact form for handling events
-* [ ] Home:
-  * This should be a welcome landing page that contains:
-     * [ ] Your Name
-     * [ ] A Headshot of you
-     * [ ] Your brand statement
-     * [ ] Some indication that this is your portfolio site
 
-### Updated Social Media Presence
-#### LinkedIn
+<!-- GETTING STARTED -->
+## Getting Started
 
-* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-* If you do not have a LinkedIn profile, please create one.
-#### GitHub
+Below is instruction on how to install the project locally to test is functionality.
 
-* Update GitHub profile with pinned repositories featuring those same projects.
+### Installation
+Follow the steps below to install this incridiable project:
 
-## Grading
+1. Clone the repo
+   'sh
+   git clone 
+   '
+2. Install NPM packages
+   'sh
+   npm install
+   '
+3. Create React App
+    'sh
+    npx create-react-app choiceofName
+    '
 
-This challenge is assessed on the following criteria: 
+4. Replace the eexisting src with the project src
 
-### Technical Acceptance Criteria: 40%
+5. Install Bootstrap
+    'sh
+    npm i bootstrap
+    '
 
-* Satisfies all of the above acceptance criteria 
+6. Test Run the Project
+    'sh
+    npm start
+    '
 
-### Deployment: 32%
 
-* Application deployed at live URL (if applicable).
+<!-- DEMO ON HOW THE PROJECT WORKS -->
+## Demo
 
-* Application loads with no errors.
+![Screenshoot description of the application](./src/assets//images/Screenshot.png)
 
-* Application GitHub URL submitted (if applicable).
 
-* GitHub repository that contains application code.
 
-### Application Quality: 15%
+<!-- CONTRIBUTING -->
+## Contributing
 
-* User experience is intuitive and easy to navigate.
+Contribution are always welcome, as it what make the open source community such an amazing place to learn, create and inspire. if you wish to contribute and make the project better, find below the step that  are to be followed to get started
+1. Fork the Project
+2. Create your Feature Branch ('git checkout -b feature/my_portfolio')
+3. Commit your Changes ('git commit -m 'Add some changes my_portfolio'')
+4. Push to the Branch ('git push origin feature/my_portfolio')
+5. Open a Pull Request
 
-* User interface style is clean and polished.
+<!-- LICENSE -->
+## License
 
-* Application uses a color scheme other than the default Bootstrap color palette.
+Distrubed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Repository Quality: 13%
+<!-- QUESTIONS -->
+## Questions
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Email : okemba50@gmail.com
+Profile : https://github.com/preshy59
+Project Link: https://preshy59.github.io/my_portfolio/
