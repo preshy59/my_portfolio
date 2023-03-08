@@ -1,0 +1,47 @@
+.contact{
+    padding-top: 100px;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    color:  #16D2A7;
+    font-size: 1.5rem;
+
+}
+.details{
+margin:0 auto;
+padding: 20px;
+width: 50%;
+color:  #16D2A7;
+}
+
+.socials{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+  .outline img{
+    border-radius: 600px;
+    margin-bottom: 0;
+    width: 50px;
+    height: 50px;
+   }
+   .outline{
+   width: auto;
+    list-style-type:none;
+    display:inline-block;
+    margin: 0 auto;
+      }
+   
+  .outline li{
+     padding: 5px 10px;
+    color:#16D2A7;
+    display: inline-block;
+    
+   }
+
+   .outline li:hover{
+    box-shadow: 0 10px 30px -10px;
+   }
