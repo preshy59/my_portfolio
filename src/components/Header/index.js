@@ -6,7 +6,7 @@ function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
             <a className="navbar-brand images navHead" href="/my_portfolio">
-                <img src={require('../../assets/images/logo.png')} alt="logo using initial" id="logo"></img>
+                <img src="./assets/images/logo.png" alt="logo using initial" id="logo"></img>
             </a>
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

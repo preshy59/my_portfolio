@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 
+
 function Contact() {
     return (
         <div className="contact">
@@ -24,13 +25,13 @@ function Contact() {
 
             <div className="socials">
                 <ul className="outline">
-                    <li> <a href="mailto:okemba50@gmail.com" className="send"><img src={require('../../../assets/images/email.png')} className="img-fluid"
+                    <li> <a href="mailto:okemba50@gmail.com" className="send"><img src= "./assets/images/email.png" className="img-fluid"
                             alt="email"></img></a></li>
-                    <li><a href="https://github.com/preshy59" className="send"><img src={require('../../../assets/images/github.png')} className="img-fluid"
+                    <li><a href="https://github.com/preshy59" className="send"><img src="./assets/images/github.png" className="img-fluid"
                             alt="GitHub"></img></a></li>
-                    <li><a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><img src={require('../../../assets/images/twitter.png')} className="img-fluid"
+                    <li><a href="https://twitter.com/thebelle_o?t=Mpv2oiGkYta4-WK7NDYjjA&s=09" className="send"><img src="./assets/images/twitter.png" className="img-fluid"
                             alt="twitter"></img></a></li>
-                    <li> <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><img src={require('../../../assets/images/linkdeln.png')} className="img-fluid"
+                    <li> <a href="https://www.linkedin.com/in/ebele-okemba-76291b201" className="send"><img src="./assets/images/linkdeln.png"className="img-fluid"
                             alt="linkedln"></img></a></li>
                 </ul>
                          </div>

@@ -6,7 +6,7 @@ function About() {
         <div className="card mb-3" id="body">
             <div className="row g-0" id="sections">
                 <div className="col-md-4">
-                    <img src={require('../../../assets/images/headshot.png')} className="img-fluid rounded-start" alt="Profile" id="profile"></img>
+                    <img src="./assets/images/headshot.png" className="img-fluid rounded-start" alt="Profile" id="profile"></img>
                 </div>
                 <div className="col-md-8">
                     <div className="card-body" id="message">

@@ -12,7 +12,7 @@ function ProjectGallery() {
             <h1 className="text-center">PROJECT GALLERY</h1>
             <div className ="projects-cards">
                {projects.map((project, index) => {
-               return <Project  key={index} {...project}/>
+               return <Project  key={index} index = {index}/>
      } )}
             </div>
         </div>
