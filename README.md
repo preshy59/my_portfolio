@@ -108,6 +108,6 @@ Distrubed under the [![License: MIT](https://img.shields.io/badge/License-MIT-ye
 <!-- QUESTIONS -->
 ## Questions
 
-Email : okemba50@gmail.com
-Profile : https://github.com/preshy59
-Project Link: https://preshy59.github.io/my_portfolio/
+<p> Email : okemba50@gmail.com</p>
+<p> Profile : https://github.com/preshy59</p>
+<p>Project Link: https://preshy59.github.io/my_portfolio/</p>
