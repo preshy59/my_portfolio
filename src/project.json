@@ -30,7 +30,7 @@
         "id": 4,
        "name": "Prebel Collection",
         "images": "./assets/images/Prebel_collection.png",
-        "description": "Prebel collection is a one stop online fashion store that deals on different apparels of any kind.",
+        "description": "Prebel collection is a one stop online fashion store that deals on different apparels of any kind and for differnt occassions.",
         "github": "https://github.com/preshy59/prebel_collection",
         "deployedUrl": "https://preshy59.github.io/prebel_collection/"
     }
