@@ -86,7 +86,7 @@ Follow the steps below to install this incridiable project:
 <!-- DEMO ON HOW THE PROJECT WORKS -->
 ## Demo
 
-![Screenshoot description of the application](./src/assets//images/Screenshot.png)
+![Screenshoot description of the application](./public/assets/images/Screenshot.png)
 
 
 
