@@ -8,10 +8,10 @@ function Home() {
         <div className="jumbotron home">
             <div className="content" id="section">
                 <h1 className="display-4">HI !!!, I'm Ebele Okemba!</h1>
-                <h2 className="display-4">I build things for Web</h2>
-                <p className="lead">I'm a Front-End Developer that has interest in different fields, but most especially in Software Development, Artificial
-                    Intelligence and Machine Learning. I'm currently sharpening my skills as a Front-End Developer and mastering the act of
-                    visualization as a Data Analyst. Currently based in London and open for freelance and collaborations. </p>
+                <h2 className="display-4">Web Developer/Data Analyst</h2>
+                <p className="lead">I'm a Software Developer that has interest in different fields, but most especially in Artificial
+                    Intelligence and Machine Learning. I'm currently sharpening my skills as a Back-End Developer and mastering the act of
+                    visualization as a Data Analyst. Currently based in Surrey and open for freelance and collaborations. </p>
 
              </div>
 
